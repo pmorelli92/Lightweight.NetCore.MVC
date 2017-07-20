@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="Lightweight.NetCore.MVC.Template.pmorelli92" Version="1.0.0" Language="en-US" Publisher="pmorelli92" />
+    <DisplayName>Lightweight NetCore MVC Template</DisplayName>
+    <Description xml:space="preserve">Net Core 1.1 MVC project with Bootstrap and JQuery, HTML, XML, CSS, JS minifiers, and profiles for multiple environments (dev, stg, prod)</Description>
+    <MoreInfo>https://github.com/pmorelli92/Lightweight.NetCore.MVC</MoreInfo>
+    <License>LICENSE.txt</License>
+    <ReleaseNotes>release_notes.txt</ReleaseNotes>
+    <Icon>template_icon.png</Icon>
+    <Tags>lightweight mvc net core</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
+  </Installation>
+  <Dependencies>
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Lightweight.NetCore.MVC.Presentation.Website.zip" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+</PackageManifest>

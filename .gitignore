@@ -286,3 +286,5 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+/src/Lightweight.NetCore.MVC.Presentation.Website/wwwroot/lib
+/src/Lightweight.NetCore.MVC.Template.Extensions/ProjectTemplates/*.zip
