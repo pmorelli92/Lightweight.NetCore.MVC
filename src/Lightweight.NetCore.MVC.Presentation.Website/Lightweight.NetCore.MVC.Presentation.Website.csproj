@@ -6,12 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot/js\site.min.js" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Lightweight.NetCore.MVC.Presentation.Website.vstemplate" />
-    <None Remove="template_icon.ico" />
+    <None Remove="MyTemplate.vstemplate" />
     <None Remove="template_icon.png" />
   </ItemGroup>
 
