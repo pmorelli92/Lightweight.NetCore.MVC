@@ -39,7 +39,6 @@
       <ProjectItem ReplaceParameters="false" TargetFileName="bower.json">bower.json</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName=".bowerrc">.bowerrc</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="bundleconfig.json">bundleconfig.json</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Routing.cs">Routing.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>
