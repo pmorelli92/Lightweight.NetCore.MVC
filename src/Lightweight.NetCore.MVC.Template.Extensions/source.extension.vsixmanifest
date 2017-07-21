@@ -5,7 +5,7 @@
     <DisplayName>Lightweight NetCore MVC Template</DisplayName>
     <Description xml:space="preserve">Net Core 1.1 MVC project with Bootstrap and JQuery, HTML, XML, CSS, JS minifiers, and profiles for multiple environments (dev, stg, prod)</Description>
     <MoreInfo>https://github.com/pmorelli92/Lightweight.NetCore.MVC</MoreInfo>
-    <License>LICENSE.txt</License>
+    <License>https://github.com/pmorelli92/Lightweight.NetCore.MVC/blob/master/LICENSE</License>
     <ReleaseNotes>https://github.com/pmorelli92/Lightweight.NetCore.MVC/blob/master/changelog.md</ReleaseNotes>
     <Icon>template_icon.png</Icon>
     <Tags>lightweight mvc net core</Tags>
