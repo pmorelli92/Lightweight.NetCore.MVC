@@ -1,10 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>Lightweight NetCore MVC Template</Name>
-    <Description>Net Core 1.1 MVC project with Bootstrap and JQuery, HTML, XML, CSS, JS minifiers, and profiles for multiple environments (dev, stg, prod)</Description>
+    <Description>
+      Net Core 2.0 MVC project with Bootstrap and JQuery, HTML, XML, CSS, JS minifiers, and profiles for multiple environments (dev, stg, prod)
+      Adds HTTPS for Dev and Stg environments.
+    </Description>
     <ProjectType>CSharp</ProjectType>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>MySolutionName.Presentation.Website</DefaultName>
+    <DefaultName>MyProjectName.Presentation.Website</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -36,6 +39,7 @@
         </Folder>
         <ProjectItem ReplaceParameters="true" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
       </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="appsettings.json">appsettings.json</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="bower.json">bower.json</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName=".bowerrc">.bowerrc</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="bundleconfig.json">bundleconfig.json</ProjectItem>

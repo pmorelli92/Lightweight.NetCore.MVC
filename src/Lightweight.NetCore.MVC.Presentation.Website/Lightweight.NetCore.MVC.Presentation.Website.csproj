@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <PackageTargetFallback>portable-net45+win8</PackageTargetFallback>
-    <RootNamespace>Lightweight.NetCore.MVC.Presentation.Website</RootNamespace>
-    <AssemblyName>Lightweight.NetCore.MVC.Presentation.Website</AssemblyName>
+    <RootNamespace>$safeprojectname$</RootNamespace>
+    <AssemblyName>$safeprojectname$</AssemblyName>
     <Version>1.0.0</Version>
   </PropertyGroup>
   <ItemGroup>
