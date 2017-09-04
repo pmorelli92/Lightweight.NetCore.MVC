@@ -1,6 +1,7 @@
 # Lightweight NetCore MVC Template
 
-Net Core 1.1 MVC project with Bootstrap and JQuery, HTML, XML, CSS, JS minifiers, and profiles for multiple environments (dev, stg, prod)
+Net Core 2.0 MVC project with Bootstrap and JQuery, HTML, XML, CSS, JS minifiers, and profiles for multiple environments (dev, stg, prod). It also adds HTTPS support for Dev and Staging with dev's certificate.
+
 
 ## Suggested Repository Structure
 
@@ -14,7 +15,7 @@ Net Core 1.1 MVC project with Bootstrap and JQuery, HTML, XML, CSS, JS minifiers
 
 ## Website Template
 
-- The website uses .NET Core 1.1 MVC
+- The website uses .NET Core 2.0 MVC
 - Since for .NET Core Local IIS is no longer required, for debugging the application uses IIS Express with 3 different profiles.
 - Each one has a different value in the .NET Core required variable  **ASPNETCORE_ENVIRONMENT**
 - This variable determines things like:
@@ -30,7 +31,7 @@ Net Core 1.1 MVC project with Bootstrap and JQuery, HTML, XML, CSS, JS minifiers
 ## Minification
 
 - BuildBundlerMinifier is installed in order to minify CSS and JS files located in **bundleconfig.json**
-- WebMarkupMin.AspNetCore1 is installed in order to minify XML, HTML and add gzip compression to the pipeline.
+- WebMarkupMin.AspNetCore2 is installed in order to minify XML, HTML and add gzip compression to the pipeline.
 
 ## Icon
 
