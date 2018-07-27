@@ -7,14 +7,14 @@
     <title>Lightweight NetCore MVC Template</title>
 
     <environment names="Development">
-        <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-        <script src="~/lib/jquery/dist/jquery.js" type="text/javascript"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.js" type="text/javascript"></script>
+        <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="~/node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+        <script src="~/node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
     </environment>
 
-    <environment names="Staging,Production">
-        <link href="~/css/site.min.css" rel="stylesheet" />
-        <script src="~/js/site.min.js" type="text/javascript"></script>
+    <environment names="Staging, Production">
+        <link href="~/site/publish/npm.min.css" rel="stylesheet" />
+        <script src="~/site/publish/npm.min.js" type="text/javascript"></script>
     </environment>
 
 </head>
